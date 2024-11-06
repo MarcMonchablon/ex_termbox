@@ -17,7 +17,7 @@ defmodule ExTermbox.Mixfile do
 
       # Docs
       name: "ExTermbox",
-      source_url: "https://github.com/ndreynolds/ex_termbox",
+      source_url: "https://github.com/MarcMonchablon/ex_termbox",
       docs: [
         extras: ["README.md"]
       ]
@@ -40,7 +40,7 @@ defmodule ExTermbox.Mixfile do
   end
 
   defp description do
-    "Termbox bindings for Elixir"
+    "Termbox bindings for Elixir - Forked for Python 3.11"
   end
 
   defp package do
@@ -57,9 +57,9 @@ defmodule ExTermbox.Mixfile do
         README.md
         LICENSE
       ),
-      maintainers: ["Nick Reynolds"],
+      maintainers: ["Marc Monchablon"],
       licenses: ["MIT"],
-      links: %{"GitHub" => "https://github.com/ndreynolds/ex_termbox"}
+      links: %{"GitHub" => "https://github.com/MarcMonchablon/ex_termbox"}
     ]
   end
 
